@@ -5,6 +5,9 @@
 
 # sway-descratch
 
+> [!CAUTION]
+> This software is now being maintained on [Codeberg](https://codeberg.org/scip/sway-descratch/).
+
 This   is    a   more   practical   example    for   [swayipc   module
 usage](https://codeberg.org/scip/swayipc).  With  sway you  can  move
 windows  to a  "scratchpad", i.e.  like iconify  it. There  may be  an
