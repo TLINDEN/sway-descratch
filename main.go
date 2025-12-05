@@ -24,8 +24,8 @@ import (
 	"os"
 	"strconv"
 
+	"codeberg.org/scip/swayipc/v2"
 	"github.com/alecthomas/repr"
-	"github.com/tlinden/swayipc"
 )
 
 func main() {
@@ -36,7 +36,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer ipc.Close()
+	defer func() {
+		if err := ipc.Close(); err != nil {
+			log.Fatal(err)
+		}
+	}()
 
 	// first, retrieve the whole sway root node
 	root, err := ipc.GetTree()
@@ -51,7 +55,7 @@ func main() {
 		// called with an arg, consider it to be a container id
 		id, err := strconv.Atoi(os.Args[1])
 		if err != nil {
-			log.Fatalf("failed to convert arg %s to integer: %w", os.Args[1], err)
+			log.Fatalf("failed to convert arg %s to integer: %s", os.Args[1], err)
 		}
 
 		// switch to it

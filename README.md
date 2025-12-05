@@ -1,7 +1,12 @@
+[![status-badge](https://ci.codeberg.org/api/badges/15678/status.svg)](https://ci.codeberg.org/repos/15678)
+[![Go Report Card](https://goreportcard.com/badge/codeberg.org/scip/swayipc)](https://goreportcard.com/report/codeberg.org/scip/sway-descratch) 
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://codeberg.org/scip/sway-descratch/raw/branch/main/LICENSE)
+
+
 # sway-descratch
 
 This   is    a   more   practical   example    for   [swayipc   module
-usage](https://github.com/TLINDEN/swayipc).  With  sway you  can  move
+usage](https://codeberg.org/scip/swayipc).  With  sway you  can  move
 windows  to a  "scratchpad", i.e.  like iconify  it. There  may be  an
 official  way to  get back  such  windows, but  I didn't  find a  good
 one. There's the  "scratchpad show" command, but it  doesn't allow you
@@ -37,11 +42,11 @@ best way for me to forget to do something.
 
 In order to report a bug,  unexpected behavior, feature requests or to
 submit    a    patch,    please    open   an    issue    on    github:
-https://github.com/tlinden/sway-descratch/issues.
+https://codeberg.org/scip/sway-descratch/issues.
 
 ## See also
 
-- [swayipc golang sway binding](https://github.com/tlinden/swayipc)
+- [swayipc golang sway binding](https://codeberg.org/scip/swayipc)
 - [sway-ipc(7) manpage](https://www.mankier.com/7/sway-ipc)
 - [swaywm](https://github.com/swaywm/sway/)
 - [swayfx](https://github.com/WillPower3309/swayfx)
@@ -56,7 +61,7 @@ T.v.Dein <tom AT vondein DOT org>
 
 ## Project homepage
 
-https://github.com/tlinden/sway-descratch
+https://codeberg.org/scip/sway-descratch
 
 ## Copyright and License
 
